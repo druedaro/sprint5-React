@@ -1,5 +1,5 @@
 export interface ButtonProps {
-    variante: 'primary' | 'secondary' | 'tertiary';
+    variant: 'primary' | 'secondary' | 'tertiary';
     children: string;
     onClick?: () => void;
     className?: string;
