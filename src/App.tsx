@@ -1,4 +1,4 @@
-import Header from './components/organisms/header';
+import Header from './components/organisms/Header';
 import HomePage from './pages/HomePage';
 import './App.css';
 

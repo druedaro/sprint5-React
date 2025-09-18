@@ -17,7 +17,7 @@ const Newsletter = () => {
     };
 
     return (
-        <section className="py-16 md:py-24 px-4 bg-indigo-casi-morado">
+        <section className="py-16 md:py-24 px-4 bg-indigo-almost-purple">
             <div className="container mx-auto text-center max-w-xl">
                 <p className="text-blue-100 mb-4 text-sm md:text-lg tracking-widest uppercase">35,000+ already joined</p>
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8 text-white leading-tight">
