@@ -21,12 +21,12 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Logo />
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center flex-1 justify-end space-x-6">
             <NavMenu items={navItems} />
             <Button variant="tertiary" className="py-2">
               LOGIN
             </Button>
-          </div>
+        </div>
           
           <MobileMenu
             items={navItems}
