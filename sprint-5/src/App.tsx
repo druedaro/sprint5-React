@@ -1,8 +1,14 @@
-import React from "react";
-import Playground from "./playground/Playground.tsx";
+import Header from './components/organisms/header';
+import HomePage from './pages/HomePage';
+import './App.css';
 
-const App: React.FC = () => {
-  return <Playground />;
-};
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+      <Header />
+      <HomePage />
+    </div>
+  );
+}
 
 export default App;
