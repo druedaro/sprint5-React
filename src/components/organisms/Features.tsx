@@ -28,7 +28,7 @@ const Features = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <section id = 'features' className="py-16 md:py-24 px-4 overflow-x-hidden">
+    <section id = 'features' className="py-16 md:py-16 px-4 overflow-x-hidden">
       <div className="container mx-auto text-center max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-semibold mb-6">Features</h2>
         <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
