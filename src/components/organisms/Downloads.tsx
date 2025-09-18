@@ -8,7 +8,7 @@ const browsers = [
 
 const Downloads = () => {
     return (
-       <section className="py-16 md:py-24 px-4">
+       <section id = 'pricing' className="py-16 md:py-24 px-4">
             <div className="container mx-auto text-center max-w-6xl">
                 <h2 className="text-4xl md:text-4xl font-semibold capitalize mb-6">Download the extension</h2>
                 <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
@@ -16,7 +16,7 @@ const Downloads = () => {
                 got a favourite you'd like us to prioritize.
                 </p>
                 
-                <div className="grid md:grid-cols-3 gap-8 px-24 md:px-0">
+                <div className="grid md:grid-cols-3 gap-8 px-4 md:px-0">
                     {browsers.map((browser, index) => (
                     <div
                         key={browser.name}
