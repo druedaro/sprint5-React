@@ -8,7 +8,10 @@ export default {
   testMatch: ['**/__tests__/**/*.test.tsx'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {
-    '^.+\\.(ts|tsx)$': ['ts-jest', { useESM: true }]
+    '^.+\\.(ts|tsx)$': ['ts-jest', {
+      tsconfig: 'tsconfig.test.json',
+      useESM: true
+    }]
   },
   extensionsToTreatAsEsm: ['.ts', '.tsx']
 }
