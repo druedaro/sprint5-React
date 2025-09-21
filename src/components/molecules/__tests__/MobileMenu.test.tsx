@@ -44,12 +44,10 @@ describe('MobileMenu Component', () => {
     it('shows menu content and navigation items when open', () => {
       render(<MobileMenu {...mockProps} isOpen={true} />);
       
-      // Verifica que se muestren todos los enlaces de navegación
       mockItems.forEach(item => {
         expect(screen.getByText(item.label)).toBeInTheDocument();
       });
 
-      // Verifica que se muestre el botón de Login
       expect(screen.getByText('Login')).toBeInTheDocument();
     });
 
