@@ -1,10 +1,5 @@
 import Button from "../atoms/Button";
 
-// Hero component for the main landing section.
-// It typically includes a headline, subheadline, and a call-to-action button.
-// The layout is visually appealing and designed to capture user attention.
-// It may also include background images or animations for enhanced engagement.
-
 const Hero = () => {
   return (
     <section className="py-16 md:py-24 px-4 overflow-hidden">
