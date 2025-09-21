@@ -3,7 +3,6 @@ import Features from "../components/organisms/Features";
 import Downloads from "../components/organisms/Downloads";
 import Faq from "../components/organisms/Faq";
 import Newsletter from "../components/organisms/Newsletter";
-import SiteFooter from "../components/organisms/SiteFooter";
 
 const HomePage = () => {
     return (
@@ -13,7 +12,6 @@ const HomePage = () => {
         <Downloads />
         <Faq />
         <Newsletter />
-        <SiteFooter />
         </>
     );
 };

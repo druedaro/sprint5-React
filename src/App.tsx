@@ -1,5 +1,6 @@
 import Header from './components/organisms/Header';
 import HomePage from './pages/HomePage';
+import SiteFooter from "./components/organisms/SiteFooter";
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <HomePage />
+      <SiteFooter />
     </div>
   );
 }

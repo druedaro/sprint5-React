@@ -19,7 +19,8 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 ✅ Style the project with Tailwind CSS for fast, responsive design  
 ✅ Refactor a static HTML/CSS page into a dynamic React app  
 ✅ Organize the UI into clear, reusable components  
-✅ Implement a mobile-friendly navigation menu and interactive sections
+✅ Implement a mobile-friendly navigation menu and interactive sections  
+✅ Add unit tests for key components
 
 ---
 
@@ -29,8 +30,59 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+- [Jest](https://jestjs.io/) - Testing Framework
+- [React Testing Library](https://testing-library.com/react) - Component Testing
+- [@testing-library/user-event](https://testing-library.com/docs/user-event/intro/) - User Interaction Testing
 
 ---
+
+### 📁 Project Structure
+
+```
+├── public/              # Static assets
+│   └── images/         # Public images
+├── src/
+│   ├── App.css
+│   ├── App.tsx         # Main App component
+│   ├── assets/
+│   │   └── images/     # SVG and image assets
+│   ├── components/
+│   │   ├── atoms/      # Basic building blocks
+│   │   │   ├── Button.tsx
+│   │   │   ├── EmailInput.tsx
+│   │   │   ├── Icon.tsx
+│   │   │   ├── Logo.tsx
+│   │   │   └── __tests__/
+│   │   ├── molecules/  # Composite components
+│   │   │   ├── FeatureCard.tsx
+│   │   │   ├── MobileMenu.tsx
+│   │   │   ├── NavMenu.tsx
+│   │   │   └── __tests__/
+│   │   └── organisms/ # Complex, self-contained sections
+│   │       ├── Downloads.tsx
+│   │       ├── Faq.tsx
+│   │       ├── Features.tsx
+│   │       ├── Header.tsx
+│   │       ├── Hero.tsx
+│   │       ├── Newsletter.tsx
+│   │       └── SiteFooter.tsx
+│   ├── index.css
+│   ├── main.tsx       # Entry point
+│   ├── pages/
+│   │   └── HomePage.tsx
+│   └── types/        # TypeScript type definitions
+├── index.html
+├── package.json
+├── tsconfig.json     # TypeScript configuration
+├── tsconfig.app.json
+├── tsconfig.node.json
+├── tsconfig.test.json
+├── jest.config.js    # Jest testing configuration
+├── vite.config.ts    # Vite configuration
+├── tailwind.config.js # Tailwind CSS configuration
+├── postcss.config.js
+└── eslint.config.js  # ESLint configuration
+```
 
 ### ⚙️ How to Run the Project
 
@@ -58,6 +110,16 @@ Make sure you have **Node.js** and **npm** installed. Then:
 
 5. **Open the app in your browser**  
    Visit the local URL shown in your terminal (usually [http://localhost:5173](http://localhost:5173)).
+
+6. **Run tests**
+   ```bash
+   npm test
+   ```
+   
+   To run tests in watch mode:
+   ```bash
+   npm test -- --watch
+   ```
 
 ---
 
