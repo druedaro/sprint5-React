@@ -30,35 +30,35 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Jest](https://jestjs.io/) - Testing Framework
-- [React Testing Library](https://testing-library.com/react) - Component Testing
-- [@testing-library/user-event](https://testing-library.com/docs/user-event/intro/) - User Interaction Testing
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/react)
+- [@testing-library/user-event](https://testing-library.com/docs/user-event/intro/)
 
 ---
 
 ### 📁 Project Structure
 
 ```
-├── public/              # Static assets
-│   └── images/         # Public images
+├── public/              
+│   └── images/         
 ├── src/
 │   ├── App.css
-│   ├── App.tsx         # Main App component
+│   ├── App.tsx       
 │   ├── assets/
-│   │   └── images/     # SVG and image assets
+│   │   └── images/     
 │   ├── components/
-│   │   ├── atoms/      # Basic building blocks
+│   │   ├── atoms/    
 │   │   │   ├── Button.tsx
 │   │   │   ├── EmailInput.tsx
 │   │   │   ├── Icon.tsx
 │   │   │   ├── Logo.tsx
 │   │   │   └── __tests__/
-│   │   ├── molecules/  # Composite components
+│   │   ├── molecules/
 │   │   │   ├── FeatureCard.tsx
 │   │   │   ├── MobileMenu.tsx
 │   │   │   ├── NavMenu.tsx
 │   │   │   └── __tests__/
-│   │   └── organisms/ # Complex, self-contained sections
+│   │   └── organisms/
 │   │       ├── Downloads.tsx
 │   │       ├── Faq.tsx
 │   │       ├── Features.tsx
@@ -67,21 +67,21 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 │   │       ├── Newsletter.tsx
 │   │       └── SiteFooter.tsx
 │   ├── index.css
-│   ├── main.tsx       # Entry point
+│   ├── main.tsx      
 │   ├── pages/
 │   │   └── HomePage.tsx
-│   └── types/        # TypeScript type definitions
+│   └── types/    
 ├── index.html
 ├── package.json
-├── tsconfig.json     # TypeScript configuration
+├── tsconfig.json    
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 ├── tsconfig.test.json
-├── jest.config.js    # Jest testing configuration
-├── vite.config.ts    # Vite configuration
-├── tailwind.config.js # Tailwind CSS configuration
+├── jest.config.js    
+├── vite.config.ts    
+├── tailwind.config.js 
 ├── postcss.config.js
-└── eslint.config.js  # ESLint configuration
+└── eslint.config.js 
 ```
 
 ### ⚙️ How to Run the Project
