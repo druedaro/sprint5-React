@@ -21,7 +21,7 @@ const MobileMenu = ({ items, isOpen, onToggle, onClose }: MobileMenuProps) => {
                         <div className="flex items-center justify-between px-6 py-6 w-full max-w-full">
                             <img src="/images/logo-bookmark-white.svg" alt="Bookmark" className="h-6 max-w-full select-none" />
                             <button onClick={onClose} aria-label="Close menu" className="p-2">
-                                <img src="/images/icon-close.svg" alt="close" className="w-6 h-6" />
+                                <Icon name="close" />
                             </button>
                         </div>
 
@@ -53,10 +53,10 @@ const MobileMenu = ({ items, isOpen, onToggle, onClose }: MobileMenuProps) => {
 
                         <div className="mt-auto flex items-center justify-center space-x-10 py-10 w-full">
                             <a href="#" aria-label="Facebook">
-                                <img src="/images/icon-facebook.svg" alt="facebook" className="w-6 h-6" />
+                                <Icon name="facebook" />
                             </a>
                             <a href="#" aria-label="Twitter">
-                                <img src="/images/icon-twitter.svg" alt="twitter" className="w-6 h-6" />
+                                <Icon name="twitter" />
                             </a>
                         </div>
                     </div>
