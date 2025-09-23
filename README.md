@@ -49,7 +49,6 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 │   ├── components/
 │   │   ├── atoms/    
 │   │   │   ├── Button.tsx
-│   │   │   ├── EmailInput.tsx
 │   │   │   ├── Icon.tsx
 │   │   │   ├── Logo.tsx
 │   │   │   └── __tests__/
@@ -66,6 +65,8 @@ Key features include a mobile hamburger menu, tabbed features section, extension
 │   │       ├── Hero.tsx
 │   │       ├── Newsletter.tsx
 │   │       └── SiteFooter.tsx
+│   ├── data/
+│   │   └── index.ts
 │   ├── index.css
 │   ├── main.tsx      
 │   ├── pages/

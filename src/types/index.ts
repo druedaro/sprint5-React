@@ -17,3 +17,14 @@ export interface FeatureCard {
     description: string;
     image: string; 
 }
+
+export interface Browser {
+    name: string;
+    version: string;
+    image: string;
+}
+
+export interface FaqItem {
+    q: string;
+    a: string;
+}

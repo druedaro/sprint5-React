@@ -1,5 +1,4 @@
 import {useState} from 'react';
-import EmailInput from "../atoms/EmailInput";
 import Button from "../atoms/Button";
 
 const Newsletter = () => {
@@ -24,9 +23,18 @@ const Newsletter = () => {
                 Stay up-to-date with what we're doing
                 </h2>
                 <div className="flex flex-col sm:flex-row gap-6 max-w-xl mx-auto sm:items-stretch">
-                <div className="flex-1">
-            <EmailInput value={email} onChange={setEmail} error={error} placeholder="Enter your email address" />
-        </div>
+                <div className="flex-1 relative">
+                    <input
+                        type="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="Enter your email address"
+                        className={`w-full px-4 py-3 border rounded-md ${
+                            error ? 'border-red-500' : 'border-gray-300'
+                        }`}
+                    />
+                    {error && (<p className="absolute top-full left-0 mt-1 text-sm text-red-600">{error}</p>)}
+                </div>
                 <Button variant="tertiary" onClick={submit}>
                     Contact Us
                 </Button>

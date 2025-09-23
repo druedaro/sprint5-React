@@ -1,10 +1,5 @@
 import Button from "../atoms/Button";
-
-const browsers = [
-    {name: 'Chrome', version: '62', image: '/images/logo-chrome.svg'},
-    {name: 'Firefox', version: '55', image: '/images/logo-firefox.svg'},
-    {name: 'Opera', version: '46', image: '/images/logo-opera.svg'}
-] as const;
+import { browsers } from "../../data";
 
 const Downloads = () => {
     return (
