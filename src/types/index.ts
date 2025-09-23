@@ -17,3 +17,21 @@ export interface FeatureCard {
     description: string;
     image: string; 
 }
+
+export interface EmailInputProps {
+    value: string;
+    onChange: (value: string) => void;
+    placeholder?: string;
+    error?: string;
+}
+
+export interface Browser {
+    name: string;
+    version: string;
+    image: string;
+}
+
+export interface FaqItem {
+    q: string;
+    a: string;
+}

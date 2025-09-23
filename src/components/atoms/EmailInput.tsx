@@ -1,9 +1,4 @@
-interface EmailInputProps {
-    value: string;
-    onChange: (value: string) => void;
-    placeholder?: string;
-    error?: string;
-}
+import type { EmailInputProps } from "../../types";
 
 const EmailInput = ({ value, onChange, placeholder, error }: EmailInputProps) => {
     return (
