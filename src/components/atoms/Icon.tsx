@@ -2,7 +2,7 @@ import type { IconProps } from "../../types";
 
 const Icon = ({ name, onClick }: IconProps) => {
     const icons = {
-        hamburguer: '/images/icon-hamburger.svg',
+        hamburger: '/images/icon-hamburger.svg',
     close: '/images/icon-close.svg',
     facebook: '/images/icon-facebook.svg',
     twitter: '/images/icon-twitter.svg',

@@ -1,5 +1,5 @@
 export interface IconProps {
-    name: 'hamburguer' | 'close' | 'facebook' | 'twitter';
+    name: 'hamburger' | 'close' | 'facebook' | 'twitter';
     onClick?: () => void;
 }
 
