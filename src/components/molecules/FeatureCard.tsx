@@ -1,4 +1,4 @@
-import type {FeatureCard} from '../../types';
+import type {FeatureCard} from '../../config/types';
 import Button from '../atoms/Button';
 
 const FeatureCard = ({image, title, description}: FeatureCard) => {

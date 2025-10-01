@@ -1,4 +1,4 @@
-import type { FeatureCard, Browser, FaqItem } from '../types';
+import type { FeatureCard, Browser, FaqItem } from './types';
 
 export const features: FeatureCard[] = [
   {

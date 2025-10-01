@@ -1,5 +1,5 @@
 import Button from "../atoms/Button";
-import { faqs } from "../../data";
+import { faqs } from "../../config/appData";
 
 const Faq = () => {
   return (

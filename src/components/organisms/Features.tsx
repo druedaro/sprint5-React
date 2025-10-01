@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { features } from "../../data";
+import { features } from "../../config/appData";
 import Button from "../atoms/Button";
 
 const Features = () => {

@@ -1,4 +1,4 @@
-import type { ButtonProps } from "../../types";
+import type { ButtonProps } from "../../config/types";
 
 const Button = ({ variant, children, onClick, className = ''}: ButtonProps) => {
     let buttonStyle = '';

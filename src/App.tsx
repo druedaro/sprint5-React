@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HomePage />
-      <SiteFooter />
+      <div className="pt-16 md:pt-20">
+        <HomePage />
+        <SiteFooter />
+      </div>
     </div>
   );
 }

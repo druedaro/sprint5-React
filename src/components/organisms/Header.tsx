@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { NavItem } from "../../types";  
+import type { NavItem } from "../../config/types";  
 import Logo from "../atoms/Logo";
 import NavMenu from "../molecules/NavMenu";
 import MobileMenu from "../molecules/MobileMenu";
@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-100">
+    <header className="fixed top-0 left-0 right-0 bg-white shadow-sm border-b border-gray-100 z-50">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Logo />

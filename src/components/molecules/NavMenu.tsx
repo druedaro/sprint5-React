@@ -1,4 +1,4 @@
-import type { NavMenuProps } from "../../types";
+import type { NavMenuProps } from "../../config/types";
 
 
 const NavMenu = ({ items }: NavMenuProps) => {

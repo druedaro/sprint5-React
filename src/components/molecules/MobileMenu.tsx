@@ -1,4 +1,4 @@
-import type {MobileMenuProps} from '../../types';
+import type {MobileMenuProps} from '../../config/types';
 import Icon from '../atoms/Icon';
 
 
@@ -6,7 +6,7 @@ const MobileMenu = ({ items, isOpen, onToggle, onClose }: MobileMenuProps) => {
     return (
         <div>
             <button onClick={onToggle} className="md:hidden p-2" aria-label="Toggle menu">
-                <Icon name={isOpen ? 'close' : 'hamburguer'} />
+                <Icon name={isOpen ? 'close' : 'hamburger'} />
             </button>
             
             {isOpen && (

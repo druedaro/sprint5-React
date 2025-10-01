@@ -1,5 +1,5 @@
 import Button from "../atoms/Button";
-import { browsers } from "../../data";
+import { browsers } from "../../config/appData";
 
 const Downloads = () => {
     return (
