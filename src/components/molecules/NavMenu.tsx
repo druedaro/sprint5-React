@@ -1,8 +1,5 @@
-import type { NavItem } from "../../types";
+import type { NavMenuProps } from "../../types";
 
-interface NavMenuProps {
-    items: NavItem[];
-}
 
 const NavMenu = ({ items }: NavMenuProps) => {
     return (

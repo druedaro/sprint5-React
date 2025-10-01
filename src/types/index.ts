@@ -11,6 +11,10 @@ export interface NavItem {
     href: string;
 }
 
+export interface NavMenuProps {
+    items: NavItem[];
+}
+
 export interface FeatureCard {
     id: string;
     title: string;
@@ -27,4 +31,11 @@ export interface Browser {
 export interface FaqItem {
     q: string;
     a: string;
+}
+
+export interface MobileMenuProps {
+    items: NavItem[];
+    isOpen: boolean;
+    onToggle: () => void;
+    onClose: () => void;
 }

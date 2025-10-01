@@ -1,12 +1,6 @@
-import type {NavItem} from '../../types';
+import type {MobileMenuProps} from '../../types';
 import Icon from '../atoms/Icon';
 
-interface MobileMenuProps {
-    items: NavItem[];
-    isOpen: boolean;
-    onToggle: () => void;
-    onClose: () => void;
-}
 
 const MobileMenu = ({ items, isOpen, onToggle, onClose }: MobileMenuProps) => {
     return (
