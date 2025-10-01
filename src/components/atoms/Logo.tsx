@@ -1,6 +1,4 @@
-interface LogoProps {
-    white?: boolean;
-}
+import type { LogoProps } from "../../types";
 
 const Logo = ({white = false}: LogoProps) => {
     const logoSrc = white ? '/images/logo-bookmark-white.svg' : '/images/logo-bookmark.svg';

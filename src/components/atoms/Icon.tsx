@@ -1,7 +1,4 @@
-interface IconProps {
-    name: 'hamburguer' | 'close' | 'facebook' | 'twitter';
-    onClick?: () => void;
-}
+import type { IconProps } from "../../types";
 
 const Icon = ({ name, onClick }: IconProps) => {
     const icons = {

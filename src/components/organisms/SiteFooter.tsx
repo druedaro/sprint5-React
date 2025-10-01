@@ -1,5 +1,6 @@
 import Logo from '../atoms/Logo';
 import Icon from '../atoms/Icon';
+
 const SiteFooter = () => {
   return (
     <footer className="bg-gray-900 py-12 px-4">

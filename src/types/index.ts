@@ -1,3 +1,12 @@
+export interface IconProps {
+    name: 'hamburguer' | 'close' | 'facebook' | 'twitter';
+    onClick?: () => void;
+}
+
+export interface LogoProps {
+    white?: boolean;
+}
+
 export interface ButtonProps {
     variant: 'primary' | 'secondary' | 'tertiary';
     children: string;
