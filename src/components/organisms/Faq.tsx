@@ -27,7 +27,9 @@ const Faq = () => {
         </div>
 
         <div className="mt-10">
-          <Button variant="primary">More Info</Button>
+          <a href="https://es.anotepad.com/" target="_blank" rel="noopener noreferrer">
+            <Button variant="primary">More Info</Button>
+          </a>
         </div>
       </div>
     </section>
